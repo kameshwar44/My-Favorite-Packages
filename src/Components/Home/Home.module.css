@@ -1,0 +1,127 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.MainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.SearchContainer {
+  margin-top: 0.4rem;
+  padding: 0.8rem;
+  border-radius: 5px;
+  width: 50%;
+  font-size: 1.2rem;
+  font-family: "Ubuntu", sans-serif;
+  border: 2px solid gray;
+  outline-color: gray;
+}
+
+.ResultContainer {
+  max-height: 6rem;
+  overflow-y: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.2rem;
+}
+
+.ResultContainer::-webkit-scrollbar {
+  width: 10px;
+}
+
+.ResultContainer::-webkit-scrollbar-track {
+  background:  rgb(195, 131, 255);
+  border-radius: 10px;
+}
+
+.ResultContainer::-webkit-scrollbar-thumb {
+  background-color: rgb(192, 185, 237);
+  border-radius: 10px;
+}
+
+.ResultMessage {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.RadioButton {
+  height: 1rem;
+  width: 1rem;
+  margin-right: 0.8rem;
+  cursor: pointer;
+  accent-color: rgb(127, 0, 253);
+}
+
+.MapContainer {
+  display: flex;
+  align-items: center;
+}
+
+.TextAreaContainer {
+  position: relative;
+  top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  
+}
+
+.TextArea {
+  width: 46rem;
+  height:10rem;
+  border: 2px solid rgb(127, 0, 253)y;
+  outline-color:rgb(127, 0, 253);
+  border-radius: 5px;
+  font-size: 1.25rem;
+  padding: 1rem;
+}
+
+.WhyFavoriteMessage {
+  font-size: 1.05rem;
+  font-weight: bold;
+  margin-block-end: 0em;
+}
+
+.SubmitButton {
+  padding: 0.8rem;
+  background-color: rgb(127, 0, 253);
+  border-radius: 5px;
+  width: 7rem;
+  color: white;
+  border: none;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.95rem;
+  cursor: pointer;
+  margin-top: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 1.16) 0px 3px 6px, rgba(0, 0, 0, 2.23) 0px 3px 6px;
+}
+
+.SubmitButton:hover {
+  background-color:  rgb(195, 131, 255);
+}
+
+.ViewFav{
+  padding: 0.8rem;
+  background-color: rgb(127, 0, 253);
+  border-radius: 5px;
+  color: white;
+  border: none;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.95rem;
+  cursor: pointer;
+  margin-bottom: 0px;
+  box-shadow: rgba(0, 0, 0, 1.16) 0px 3px 6px, rgba(0, 0, 0, 2.23) 0px 3px 6px;
+
+}
+
+.SubmitButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+}

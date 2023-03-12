@@ -1,0 +1,38 @@
+.MainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 2rem;
+  }
+  
+  .BoxContainer {
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  
+  .ButtonContainer {
+    padding: 1rem;
+    width: 50%;
+    cursor: pointer;
+  }
+
+  .ButtonContainer{
+     padding: 0.8rem;
+  background-color: rgb(127, 0, 253);
+  border-radius: 5px;
+  width: 7rem;
+  color: white;
+  border: none;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.95rem;
+  cursor: pointer;
+  margin-top: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 1.16) 0px 3px 6px, rgba(0, 0, 0, 2.23) 0px 3px 6px;
+  }

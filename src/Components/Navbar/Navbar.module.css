@@ -1,0 +1,21 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    background-color: rgb(195, 131, 255);
+    text-decoration: none; 
+    padding: 7px;
+    border-radius: 5px;
+    margin: 8px;
+    
+}
+
+#dot{
+    font-size: 23px;
+    margin-left: 3px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+ 
+}
